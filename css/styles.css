@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+
+}
+
+
+h1 {
+    font-size: 5.625rem;
+    margin-top: 50 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    padding-bottom: 10px;
+
+}
+
+h3 {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+
+
+}
+
+p {
+    font-size: 1rem;
+    color: #40514E;
+    line-height: 2;
+
+
+}
+
+hr {
+    border-bottom: none;
+    width: 4%;
+    border: dotted #EAF6f6 6px;
+    margin: 100px auto;
+    border-top: none;
+
+}
+
+a {
+    color: #11999E;
+    font-family: 'Merriweather',
+        serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+
+
+
+.top-container {
+
+    background-color: #EAF6f6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+
+}
+
+.company {
+    margin-top: 20px auto 0 auto;
+    margin-top: 20px;
+    width: 10%;
+}
+
+a:hover {
+    color: #EAF6f6;
+}
+
+.middle-container {
+
+    background-color: white;
+    padding: 50px 0 20px;
+
+
+
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+
+
+}
+
+.profile {
+    margin-bottom: 20px;
+
+}
+
+
+
+.pro {
+    text-decoration: underline;
+    font-weight: normal;
+    line-height: 2;
+}
+
+
+.footer-link {
+    color: #11999E;
+}
+
+.Skills {
+
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.skill-row {
+
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+
+
+
+.Skills:hover {
+    transition: 3s ease-in;
+    transform: matrix3d(1, 0, 2, 0.0010, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+
+}
+
+
+
+.geek {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.geek-text {
+    margin-left: 70px;
+}
+
+
+
+.geek:hover {
+    transform: rotate(90deg);
+    transition: 2s ease-in;
+
+}
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copy-right {
+    color: #EAF6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn {
+    background: #11CDD4;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Merriweather', serif;
+    padding: 15px;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+.contact-me-button {
+    height: 30px;
+}
+
+
+
+
+
+
+.btn:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+/* *************************************contact me page**************************** */
+.contact {
+    background-color: #FFF8F3;
+}
+
+
+
+.p-contact {
+    font-family: fantasy;
+    font-weight: bold;
+    color: #1C6DD0;
+
+}
+
+.hrc {
+    border-bottom: none;
+    width: 4%;
+    border: dotted #A3E4DB 6px;
+    margin: 100px auto;
+    border-top: none;
+
+
+}
+
+.dc2 {
+    margin-left: 70px;
+}
+
+.dc3 {
+    margin-left: 80px;
+}
+
+.contact-container {
+    margin-right: 130px;
+}
+
+.SurNAme {
+    margin-left: 40px;
+}
+
+.sn1 {
+    font-family: fantasy;
+    font-size: 0.8rem;
+    color: #1C6DD0;
+
+
+
+}
+
+.sni {
+    background-color: #FFF8F3;
+    border: 2px #1C6DD0 solid;
+
+}
+
+.fn {
+    font-family: fantasy;
+    font-size: 1rem;
+    color: #1C6DD0;
+
+}
+
+.fni {
+    background-color: #FFF8F3;
+    border: 2px #1C6DD0 solid;
+
+}
+
+.emb {
+    font-family: fantasy;
+    font-size: 0.8rem;
+    color: #1C6DD0;
+}
+
+.embi {
+    background-color: #FFF8F3;
+    border: 2px #1C6DD0 solid;
+}
+
+.ym1 {
+    font-family: fantasy;
+    font-size: 1rem;
+    color: #1C6DD0;
+}
+
+.ta1 {
+    background-color: #FFF8F3;
+    border: 2px #1C6DD0 solid;
+}
+
+.subb {
+    background-color: #FFF8F3;
+    color: #1C6DD0;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: #1C6DD0;
+    width: 10%;
+
+}
